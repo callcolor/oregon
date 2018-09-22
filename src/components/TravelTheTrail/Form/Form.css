@@ -1,0 +1,32 @@
+.travel-the-trail .form {
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .travel-the-trail .form .prompt {
+    left: 10%;
+    position: absolute;
+    top: 50%;
+    width: 80%; }
+  .travel-the-trail .form .space {
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    text-align: center; }
+  .travel-the-trail .form .controls {
+    position: absolute;
+    top: 59.5%;
+    left: 10%;
+    width: 80%; }
+    .travel-the-trail .form .controls label {
+      display: inline-block;
+      width: 100%; }
+    .travel-the-trail .form .controls input {
+      color: white;
+      background: black;
+      border: none;
+      width: 80%;
+      font-size: 1em;
+      padding-left: 1em; }
+    .travel-the-trail .form .controls input:focus {
+      outline: none; }

@@ -1,0 +1,61 @@
+.travel-the-trail {
+  .menu {
+    height: 100%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    h2 {
+      position: absolute;
+      top: 18.5%;
+      width: 100%;
+      text-align: center;
+      font-size: 3.1em;
+      color: #ffc6a5;
+      font-family: 'West', "Lucida Console", Monaco, monospace;
+      transform: scale(1.6, 1);
+      font-weight: 100;
+      -webkit-text-stroke-color: #40290b;
+      -webkit-text-stroke-width: 0.02em;
+      -webkit-font-smoothing: none;
+    }
+
+    .space {
+      position: absolute;
+      top: 80%;
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .menu .modal {
+    background: black;
+    border: 6px solid white;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  .menu .options {
+    position: absolute;
+    width: 85%;
+    left: 7.5%;
+    top: 37%;
+
+    p {
+      padding-bottom: 1em;
+    }
+
+    ol {
+      padding-left: 4.4em;
+      padding-bottom: 1em;
+
+      li:hover {
+        color: #ffc6a5;
+      }
+    }
+  }
+
+  .menu.without-header .options {
+    top: 28%;
+  }
+}

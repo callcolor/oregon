@@ -1,0 +1,22 @@
+.travel-the-trail .table {
+  position: absolute;
+  top: 18%;
+  width: 100%;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat; }
+  .travel-the-trail .table .header {
+    text-align: center; }
+  .travel-the-trail .table table {
+    width: 100%; }
+    .travel-the-trail .table table tr th {
+      text-transform: capitalize;
+      text-align: center;
+      padding: 0.5em; }
+      .travel-the-trail .table table tr th span {
+        background: white;
+        color: black;
+        border: 0.25em solid white; }
+    .travel-the-trail .table table tr td.number {
+      text-align: right;
+      padding-right: 2em; }

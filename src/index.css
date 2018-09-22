@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'PrintChar';
+  src: url("/assets/fonts/PrintChar21.ttf"); }
+
+@font-face {
+  font-family: 'West';
+  src: url("/assets/fonts/west.ttf"); }
+
+* {
+  margin: 0;
+  padding: 0; }

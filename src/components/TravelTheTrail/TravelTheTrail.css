@@ -1,0 +1,25 @@
+.travel-the-trail {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  line-height: 1.4;
+  font-family: 'PrintChar', "Lucida Console", Monaco, monospace;
+  font-weight: 600;
+  color: white;
+  overflow: hidden; }
+  .travel-the-trail .component-wrapper {
+    position: relative;
+    width: 100vw;
+    max-width: 100vh;
+    height: 100vh;
+    max-height: 100vw;
+    margin: auto; }
+  .travel-the-trail .space {
+    text-align: center;
+    padding: 0.5em; }
+  .travel-the-trail .space:hover {
+    color: #ffc6a5; }
+  .travel-the-trail input {
+    line-height: 1.4;
+    font-family: 'PrintChar', "Lucida Console", Monaco, monospace; }
